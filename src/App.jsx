@@ -109,7 +109,7 @@ const App = () => {
         <div className={`absolute inset-0 z-0 transition-colors duration-500 ${isDark ? 'bg-[#0f1115]' : 'bg-gray-50'}`}>
           {/* Opacidad y fondo condicionados al modo claro/oscuro */}
           <img 
-            src="https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=2000&auto=format&fit=crop" 
+            src="background-image.jpg" 
             alt="Workspace" 
             className={`w-full h-full object-cover grayscale transition-opacity duration-500 ${isDark ? 'opacity-30 md:opacity-50' : 'opacity-30 md:opacity-40'}`}
           />
