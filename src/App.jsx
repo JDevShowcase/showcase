@@ -113,7 +113,7 @@ const App = () => {
             alt="Workspace" 
             className={`w-full h-full object-cover grayscale transition-opacity duration-500 ${isDark ? 'opacity-30 md:opacity-50' : 'opacity-30 md:opacity-40'}`}
           />
-          <div className={`absolute inset-0 bg-gradient-to-r ${isDark ? 'from-[#0f1115] via-[#0f1115]/90 to-transparent' : 'from-gray-50 via-gray-50/70 to-transparent'}`}></div>
+          <div className={`absolute inset-0 bg-linear-to-r ${isDark ? 'from-[#0f1115] via-[#0f1115]/90 to-transparent' : 'from-gray-50 via-gray-50/70 to-transparent'}`}></div>
         </div>
 
         <div className="relative z-10 max-w-2xl mt-20">
@@ -154,14 +154,14 @@ const App = () => {
             </p>
 
             <div className={`flex items-end gap-4 text-sm ${textMuted} whitespace-pre-line`}>
-              <div className={`w-12 h-[2px] mb-2 ${accentBg}`}></div>
+              <div className={`w-12 h-0.5 mb-2 ${accentBg}`}></div>
               {currentT.dummyAddress}
             </div>
           </div>
           
-          <div className="relative aspect-[4/5] md:aspect-square w-full max-w-md mx-auto grayscale hover:grayscale-0 transition-all duration-700">
+          <div className="relative aspect-4/5 w-full max-w-md mx-auto grayscale hover:grayscale-0 transition-all duration-700">
             <img 
-              src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?q=80&w=1000&auto=format&fit=crop" 
+              src="hero-image.png" 
               alt="Portrait" 
               className="object-cover w-full h-full rounded-lg shadow-2xl"
             />
@@ -235,7 +235,7 @@ const App = () => {
           <div className="md:col-span-8">
             <h3 className="text-sm font-black mb-12 uppercase tracking-widest flex items-center gap-4">
               {currentT.academicExp}
-              <span className={`h-[1px] flex-1 ${borderMuted}`}></span>
+              <span className={`h-px flex-1 ${borderMuted}`}></span>
             </h3>
 
             <div className="space-y-12">
