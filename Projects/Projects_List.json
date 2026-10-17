@@ -149,6 +149,43 @@
           "Custom lists and ordered maps for game management."
         ]
       }
+    },
+    {
+      "id": "3d-projection-in-c",
+      "title": "3D Projection in C",
+      "category": {
+        "es": "Gráficos 3D · Proyecto educativo",
+        "en": "3D graphics · Educational project"
+      },
+      "description": {
+        "es": "Visor 3D de aristas con cámara móvil y proyección perspectiva calculada en C, desde la geometría hasta la pantalla.",
+        "en": "A wireframe 3D viewer with a movable camera and perspective projection computed in C, from geometry to screen."
+      },
+      "image": "Projects/3D_Projection/main.png",
+      "gallery": [
+        "Projects/3D_Projection/geogebra.png"
+      ],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/JosephDonoso/3d-projection-in-c"
+      },
+      "skills": [
+        "C",
+        "SDL2",
+        "OpenGL"
+      ],
+      "features": {
+        "es": [
+          "Proyección 3D a 2D calculada en CPU mediante vectores e intersecciones recta-plano.",
+          "Cámara móvil con control manual y modo órbita.",
+          "Renderizado de aristas con SDL2 y OpenGL."
+        ],
+        "en": [
+          "CPU-based 3D to 2D projection using vectors and line-plane intersections.",
+          "Movable camera with manual controls and orbit mode.",
+          "Wireframe rendering with SDL2 and OpenGL."
+        ]
+      }
     }
   ]
 }
