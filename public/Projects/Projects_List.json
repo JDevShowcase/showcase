@@ -1,0 +1,154 @@
+{
+  "projects": [
+    {
+      "id": "venta-upla",
+      "title": "Venta UPLA",
+      "category": {
+        "es": "Desarrollo web · Full stack",
+        "en": "Web development · Full stack"
+      },
+      "description": {
+        "es": "Marketplace universitario para comprar y vender productos entre estudiantes de la UPLA.",
+        "en": "A university marketplace for UPLA students to buy and sell products."
+      },
+      "image": "Projects/Venta_UPLA/main.png",
+      "gallery": [],
+      "links": {
+        "demo": "https://venta-upla.vercel.app/home",
+        "github": "https://github.com/JosephDonoso/venta-upla"
+      },
+      "skills": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "PostgreSQL"
+      ],
+      "features": {
+        "es": [
+          "Registro con validación de RUT chileno y correo institucional @alumnos.upla.cl.",
+          "Verificación de cuenta y recuperación de contraseña por correo electrónico.",
+          "Publicación, edición y eliminación de productos con imágenes en Vercel Blob.",
+          "Catálogo filtrado por categorías, perfil de usuario y gestión de datos personales.",
+          "Página pública con productos y categorías destacadas, información y formulario de contacto."
+        ],
+        "en": [
+          "Registration with Chilean RUT validation and institutional @alumnos.upla.cl email.",
+          "Email account verification and password recovery.",
+          "Product creation, editing and deletion with images stored in Vercel Blob.",
+          "Category filters, user profiles and personal information management.",
+          "Public landing page with featured products, categories and a contact form."
+        ]
+      }
+    },
+    {
+      "id": "life-in-progress",
+      "title": "Life in Progress",
+      "category": {
+        "es": "Aplicación web · Proyecto personal",
+        "en": "Web app · Personal project"
+      },
+      "description": {
+        "es": "Una colección de logros para tu vida real: registra experiencias y comparte tus momentos favoritos.",
+        "en": "An achievement collection for real life: track experiences and share your favorite moments."
+      },
+      "image": "Projects/Life_In_Progress/main.png",
+      "gallery": [],
+      "links": {
+        "demo": "https://josephdonoso.github.io/life-in-progress/",
+        "github": "https://github.com/JosephDonoso/life-in-progress"
+      },
+      "skills": [
+        "React",
+        "TypeScript",
+        "Supabase",
+        "CSS"
+      ],
+      "features": {
+        "es": [
+          "Catálogo bilingüe con búsqueda y filtros por categoría, rareza y estado.",
+          "Perfil personal, vitrina de logros y comunidad con amistades.",
+          "Autenticación y persistencia con Supabase; demostración local disponible."
+        ],
+        "en": [
+          "Bilingual catalog with search and category, rarity and status filters.",
+          "Personal profiles, achievement showcases and a community with friendships.",
+          "Supabase authentication and persistence, with a local demo mode."
+        ]
+      }
+    },
+    {
+      "id": "uctpplanner",
+      "title": "UCTPPlanner",
+      "category": {
+        "es": "Optimización · Investigación aplicada",
+        "en": "Optimization · Applied research"
+      },
+      "description": {
+        "es": "Planificador de horarios universitarios con algoritmos Greedy y Tabu Search, asignación de estudiantes y evaluación experimental.",
+        "en": "University timetable planner using Greedy and Tabu Search algorithms, student assignment and experimental evaluation."
+      },
+      "image": "Projects/UCTPPlanner/main.png",
+      "gallery": [],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/JosephDonoso/uctpplanner",
+        "article": null
+      },
+      "articlePending": true,
+      "skills": [
+        "Python",
+        "NumPy",
+        "Matplotlib"
+      ],
+      "features": {
+        "es": [
+          "Optimización de horarios desde un dominio JSON.",
+          "Generación de instancias y editor visual para casos de prueba.",
+          "Integración con Google Sheets mediante Apps Script."
+        ],
+        "en": [
+          "Timetable optimization from a JSON domain.",
+          "Instance generation and visual test-case editor.",
+          "Google Sheets integration through Apps Script."
+        ]
+      }
+    },
+    {
+      "id": "snakeattack",
+      "title": "SnakeAttack",
+      "category": {
+        "es": "Videojuego · Consola de Windows",
+        "en": "Game · Windows console"
+      },
+      "description": {
+        "es": "Supervivencia inspirada en Snake: esquiva proyectiles, recoge potenciadores y compite en solitario o con otro jugador local.",
+        "en": "Snake-inspired survival: dodge projectiles, collect power-ups and compete solo or with a second local player."
+      },
+      "image": "Projects/SnakeAttack/main.png",
+      "gallery": [],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/JosephDonoso/PROYECTO_SnakeAttack"
+      },
+      "skills": [
+        "C",
+        "Windows API",
+        "GCC / MinGW"
+      ],
+      "features": {
+        "es": [
+          "Modos clásico e infinito con cinco niveles.",
+          "Uno o dos jugadores locales, potenciadores y efectos de sonido.",
+          "Rankings persistentes y configuración mediante CSV.",
+          "Listas y mapas ordenados propios para la gestión del juego."
+        ],
+        "en": [
+          "Classic and endless modes with five levels.",
+          "One or two local players, power-ups and sound effects.",
+          "Persistent rankings and CSV-based configuration.",
+          "Custom lists and ordered maps for game management."
+        ]
+      }
+    }
+  ]
+}

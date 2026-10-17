@@ -1,0 +1,28 @@
+.project-carousel { --card-width: 76%; --peek: 12%; --gap: 24px; }
+.project-viewport { overflow: hidden; touch-action: pan-y; cursor: grab; padding: 24px 0; mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent); }
+.project-viewport.is-dragging { cursor: grabbing; user-select: none; }
+.project-track { display: flex; align-items: stretch; gap: var(--gap); }
+.project-slide { flex: 0 0 var(--card-width); min-width: 0; opacity: .32; transform: scale(.94); transition: opacity .65s ease, transform .72s cubic-bezier(.22,1,.36,1); }
+.project-slide.is-active { opacity: 1; transform: scale(1); }
+.project-slide article { height: 100%; background: color-mix(in srgb, currentColor 3%, transparent); box-shadow: 0 20px 45px -28px #0008; }
+.project-slide img { pointer-events: none; }
+.single-project { --card-width: 100%; mask-image: none; cursor: auto; max-width: 680px; margin-inline: auto; }
+.project-controls { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 12%; }
+.project-caption { display: flex; flex-direction: column; gap: 4px; }
+.project-count { font-size: 14px; font-variant-numeric: tabular-nums; letter-spacing: .12em; }
+.project-count span, .project-hint { opacity: .5; }
+.project-hint { font-size: 11px; }
+.project-actions, .project-dots { display: flex; align-items: center; gap: 4px; }
+.project-actions button { padding: 10px; border-radius: 50%; transition: background .2s, color .2s; cursor: pointer; }
+.project-actions button:hover { background: #38bdf81a; color: #38bdf8; }
+.project-dots button { padding: 12px 4px; cursor: pointer; }
+.project-dots span { display: block; width: 12px; height: 3px; border-radius: 4px; background: currentColor; opacity: .2; transition: width .4s, opacity .4s; }
+.project-dots [aria-current=true] span { width: 32px; opacity: 1; background: #38bdf8; }
+.project-carousel button:focus-visible { outline: 2px solid #38bdf8; outline-offset: 3px; }
+@media (max-width: 640px) {
+  .project-carousel { --card-width: 88%; --peek: 6%; --gap: 12px; margin-inline: -20px; }
+  .project-controls { padding-inline: 6%; gap: 8px; }
+  .project-hint { max-width: 100px; }
+  .project-slide article > div { padding: 24px; }
+}
+@media (prefers-reduced-motion: reduce) { .project-carousel *, .project-carousel *::before { transition: none !important; } }

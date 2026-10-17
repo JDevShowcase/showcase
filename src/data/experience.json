@@ -1,0 +1,159 @@
+[
+  {
+    "id": "research",
+    "dates": {
+      "es": "jul. 2026 — sept. 2026",
+      "en": "Jul 2026 — Sep 2026"
+    },
+    "title": {
+      "es": "Ayudante de Investigación en Optimización",
+      "en": "Optimization Research Assistant"
+    },
+    "details": {
+      "es": "Profesional independiente · En remoto",
+      "en": "Independent contractor · Remote"
+    },
+    "summary": {
+      "es": "Investigación aplicada sobre el University Course Timetabling Problem para la Escuela de Ingeniería Informática de la PUCV, con evaluación experimental de soluciones algorítmicas y un artículo científico en preparación.",
+      "en": "Applied research on the University Course Timetabling Problem for PUCV’s School of Computer Engineering, including experimental evaluation of algorithmic solutions and a scientific article in preparation."
+    },
+    "responsibilities": {
+      "es": [
+        "Desarrollo e implementación de algoritmos de optimización y metaheurísticas en Python.",
+        "Diseño y ejecución de experimentos sobre instancias reales y sintéticas.",
+        "Análisis estadístico e interpretación de resultados experimentales.",
+        "Colaboración en la elaboración y redacción de artículos científicos."
+      ],
+      "en": [
+        "Developed and implemented optimization algorithms and metaheuristics in Python.",
+        "Designed and ran experiments on real and synthetic instances.",
+        "Performed statistical analysis and interpreted experimental results.",
+        "Contributed to the preparation and writing of scientific articles."
+      ]
+    }
+  },
+  {
+    "id": "tutor",
+    "dates": {
+      "es": "mar. 2024 — jul. 2024",
+      "en": "Mar 2024 — Jul 2024"
+    },
+    "title": {
+      "es": "Tutor Par de Programación Avanzada",
+      "en": "Advanced Programming Peer Tutor"
+    },
+    "details": {
+      "es": "Jornada parcial · Híbrido · Valparaíso, Chile",
+      "en": "Part-time · Hybrid · Valparaíso, Chile"
+    },
+    "summary": {
+      "es": "Apoyo académico para fortalecer competencias de programación y patrones de diseño.",
+      "en": "Academic support to strengthen programming skills and understanding of design patterns."
+    },
+    "responsibilities": {
+      "es": [
+        "Realización de tutorías y resolución de dudas de programación.",
+        "Apoyo en la comprensión y aplicación de conceptos avanzados.",
+        "Orientación en el desarrollo y depuración de soluciones de software."
+      ],
+      "en": [
+        "Provided tutoring and answered programming questions.",
+        "Helped students understand and apply advanced concepts.",
+        "Guided students in software development and debugging."
+      ]
+    }
+  },
+  {
+    "id": "deep-learning",
+    "dates": {
+      "es": "ene. 2024 — mar. 2024",
+      "en": "Jan 2024 — Mar 2024"
+    },
+    "title": {
+      "es": "Colaborador en Proyectos de Deep Learning",
+      "en": "Deep Learning Project Collaborator"
+    },
+    "details": {
+      "es": "Práctica · En remoto · Valparaíso, Chile",
+      "en": "Internship · Remote · Valparaíso, Chile"
+    },
+    "summary": {
+      "es": "Colaboración en desarrollo y experimentación con modelos de aprendizaje automático en PyTorch y Keras.",
+      "en": "Contributed to the development of and experimentation with machine learning models in PyTorch and Keras."
+    },
+    "responsibilities": {
+      "es": [
+        "Apoyo en la implementación y evaluación de modelos de Deep Learning.",
+        "Procesamiento y análisis de datos para experimentación.",
+        "Ejecución y análisis de experimentos computacionales."
+      ],
+      "en": [
+        "Helped implement and evaluate deep learning models.",
+        "Processed and analyzed data for experimentation.",
+        "Ran and analyzed computational experiments."
+      ]
+    }
+  },
+  {
+    "id": "data-structures",
+    "dates": {
+      "es": "ago. 2022 — jul. 2023",
+      "en": "Aug 2022 — Jul 2023"
+    },
+    "title": {
+      "es": "Ayudante de Estructuras de Datos",
+      "en": "Data Structures Teaching Assistant"
+    },
+    "details": {
+      "es": "Jornada parcial · Presencial · Valparaíso, Chile",
+      "en": "Part-time · On-site · Valparaíso, Chile"
+    },
+    "summary": {
+      "es": "Apoyo docente en la comprensión e implementación de estructuras de datos y algoritmos.",
+      "en": "Teaching support in understanding and implementing data structures and algorithms."
+    },
+    "responsibilities": {
+      "es": [
+        "Apoyo en clases prácticas y resolución de ejercicios.",
+        "Orientación en implementación y depuración de código.",
+        "Resolución de dudas sobre estructuras de datos, algoritmos y programación."
+      ],
+      "en": [
+        "Assisted in practical classes and problem-solving exercises.",
+        "Guided students in implementation and debugging.",
+        "Answered questions about data structures, algorithms and programming."
+      ]
+    }
+  },
+  {
+    "id": "algorithms",
+    "dates": {
+      "es": "mar. 2022 — jul. 2022",
+      "en": "Mar 2022 — Jul 2022"
+    },
+    "title": {
+      "es": "Ayudante de Fundamentos de Algoritmos",
+      "en": "Algorithm Fundamentals Teaching Assistant"
+    },
+    "details": {
+      "es": "Jornada parcial · Presencial · Valparaíso, Chile",
+      "en": "Part-time · On-site · Valparaíso, Chile"
+    },
+    "summary": {
+      "es": "Acompañamiento en el aprendizaje de conceptos fundamentales de programación y resolución algorítmica de problemas.",
+      "en": "Supported students in learning programming fundamentals and algorithmic problem solving."
+    },
+    "responsibilities": {
+      "es": [
+        "Apoyo en actividades prácticas y resolución de ejercicios.",
+        "Orientación en el diseño e implementación de algoritmos.",
+        "Resolución de dudas y apoyo al desarrollo de habilidades de programación."
+      ],
+      "en": [
+        "Assisted with practical activities and exercises.",
+        "Guided students in algorithm design and implementation.",
+        "Answered questions and supported the development of programming skills."
+      ]
+    }
+  }
+]
