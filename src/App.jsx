@@ -67,7 +67,7 @@ const App = () => {
       aboutTitle: 'SOBRE MÍ',
       availability: 'Trabajo y proyectos freelance',
       location: 'Casablanca, Chile',
-      bio: 'Soy Joseph Donoso, ingeniero civil informático de la PUCV, titulado en julio de 2026 con honor y segundo lugar de mi carrera. Me interesan la inteligencia artificial, la optimización y el desarrollo web. Busco oportunidades laborales y proyectos freelance.',
+      bio: 'Soy Joseph Donoso, ingeniero civil informático de la PUCV, titulado en julio de 2026 con honor. Me interesan la inteligencia artificial, la optimización y el desarrollo web. Busco oportunidades laborales y proyectos freelance.',
 
       // Nuevos textos para la sección CV
       education: 'Educación',
@@ -93,7 +93,7 @@ const App = () => {
       aboutTitle: 'ABOUT',
       availability: 'Employment and freelance projects',
       location: 'Casablanca, Chile',
-      bio: 'I am Joseph Donoso, a PUCV computer engineering graduate. I graduated in July 2026 with honors, ranked second in my program. My interests include artificial intelligence, optimization and web development. I am seeking employment and freelance projects.',
+      bio: 'I am Joseph Donoso, a PUCV computer engineering graduate. I graduated in July 2026 with honors. My interests include artificial intelligence, optimization and web development. I am seeking employment and freelance projects.',
 
       education: 'Education',
       degree: 'Civil Engineering in Computer Science',
