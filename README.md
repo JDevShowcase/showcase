@@ -1,26 +1,40 @@
-# Portafolio de Joseph Donoso
+# Joseph Donoso · Portafolio
 
-Portafolio bilingüe con React, Vite y Tailwind CSS.
+Mi espacio para compartir proyectos de desarrollo de software, gráficos 3D y optimización, junto con mi formación y experiencia como Ingeniero Civil Informático de la PUCV.
 
-## Desarrollo
+**[Explorar el portafolio →](https://jdevshowcase.github.io/showcase/)**
 
-Instalar: `npm ci`. Iniciar: `npm run dev`.
-Validar: `npm run build` y `npm run lint`.
+### Una mirada al sitio
 
-## Proyectos editables
+- Interfaz en español e inglés, con tema claro y oscuro.
+- Formación, experiencia académica y tecnologías utilizadas.
+- Carrusel de proyectos con deslizamiento, imágenes y enlaces a sus repositorios.
 
-Editar `public/Projects/Projects_List.json`. Duplicar un objeto dentro de `projects` para agregar una tarjeta, usando un `id` único.
+Construido con **React · Vite · Tailwind CSS · Lucide**.
 
-- `title`: nombre del proyecto.
-- `category` y `description`: objetos con textos `es` y `en`.
-- `features`: objeto con listas de funcionalidades `es` y `en`.
-- `skills`: lista de tecnologías; también alimenta el stack del perfil.
-- `links.demo` y `links.github`: URLs completas o `null` para omitir enlaces.
-- `image`: ruta relativa a `public` (por ejemplo `Projects/Venta_UPLA/main.png`), o `null` para omitir la imagen.
-- `gallery`: lista de rutas adicionales, reservada para una futura galería; actualmente no se muestra.
+### Desarrollo local
 
-Mantener ambos idiomas y JSON válido, sin comas finales. Guardar imágenes dentro de `public/Projects/`, sin incluir `public/` en las rutas del JSON.
+```sh
+npm ci
+npm run dev
+```
 
-## Publicación
+`npm run build` genera la versión de producción y `npm run lint` revisa el código.
 
-`npm run deploy` compila y publica en GitHub Pages. La base configurada es `/showcase/`.
+### Agregar proyectos
+
+Las tarjetas se administran desde [Projects_List.json](public/Projects/Projects_List.json). Duplica un proyecto con un `id` único y completa sus textos en español e inglés, tecnologías y enlaces.
+
+Guarda las imágenes en `public/Projects/` y usa rutas sin el prefijo `public/`. Los enlaces sin destino pueden quedar en `null`; `links.article` habilita el acceso al artículo cuando esté publicado.
+
+### Publicación
+
+```sh
+npm run deploy
+```
+
+Compila y publica el sitio en GitHub Pages.
+
+---
+
+[GitHub](https://github.com/JosephDonoso) · [LinkedIn](https://www.linkedin.com/in/joseph-donoso-b342a4324/)
