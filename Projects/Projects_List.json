@@ -199,8 +199,10 @@
         "es": "Resolución del problema de la mochila con Greedy y un algoritmo genético binario, con ajuste de parámetros y análisis estadístico.",
         "en": "Knapsack optimization using Greedy and a binary genetic algorithm, with parameter tuning and statistical analysis."
       },
-      "image": "Projects/MKP/main.png",
-      "gallery": [],
+      "image": "Projects/MKP/cover-ai.png",
+      "gallery": [
+        "Projects/MKP/main.png"
+      ],
       "links": {
         "demo": null,
         "github": "https://github.com/JosephDonoso/MKP"
@@ -221,6 +223,42 @@
           "Experimental comparison of Greedy and Binary Genetic Algorithm.",
           "Parameter tuning using ANOVA and Tukey tests.",
           "Google Colab notebook with test instances."
+        ]
+      }
+    },
+    {
+      "id": "ada-informes",
+      "title": "ADA · Informes",
+      "category": {
+        "es": "Algoritmos · Análisis experimental",
+        "en": "Algorithms · Experimental analysis"
+      },
+      "description": {
+        "es": "Diez notebooks sobre diseño y análisis de algoritmos, con implementaciones, demostraciones y comparaciones experimentales.",
+        "en": "Ten notebooks on algorithm design and analysis, with implementations, proofs and experimental comparisons."
+      },
+      "image": "Projects/ADA_Informes/main.png",
+      "gallery": [],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/JosephDonoso/ADA-Informes"
+      },
+      "skills": [
+        "Python",
+        "Jupyter",
+        "Matplotlib",
+        "NetworkX"
+      ],
+      "features": {
+        "es": [
+          "Ordenamiento, programación dinámica, estrategias voraces y caminos mínimos.",
+          "Análisis de correctitud, complejidad y tiempos de ejecución.",
+          "Visualización de grafos y experimentos en Jupyter y Google Colab."
+        ],
+        "en": [
+          "Sorting, dynamic programming, greedy strategies and shortest paths.",
+          "Correctness, complexity and execution-time analysis.",
+          "Graph visualization and experiments in Jupyter and Google Colab."
         ]
       }
     }
