@@ -187,6 +187,42 @@
           "Wireframe rendering with SDL2 and OpenGL."
         ]
       }
+    },
+    {
+      "id": "mkp",
+      "title": "MKP",
+      "category": {
+        "es": "Optimización · Algoritmos genéticos",
+        "en": "Optimization · Genetic algorithms"
+      },
+      "description": {
+        "es": "Resolución del problema de la mochila con Greedy y un algoritmo genético binario, con ajuste de parámetros y análisis estadístico.",
+        "en": "Knapsack optimization using Greedy and a binary genetic algorithm, with parameter tuning and statistical analysis."
+      },
+      "image": "Projects/MKP/main.png",
+      "gallery": [],
+      "links": {
+        "demo": null,
+        "github": "https://github.com/JosephDonoso/MKP"
+      },
+      "skills": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "Matplotlib"
+      ],
+      "features": {
+        "es": [
+          "Comparación experimental de Greedy y Binary Genetic Algorithm.",
+          "Ajuste de parámetros mediante ANOVA y pruebas de Tukey.",
+          "Notebook ejecutable en Google Colab con instancias de prueba."
+        ],
+        "en": [
+          "Experimental comparison of Greedy and Binary Genetic Algorithm.",
+          "Parameter tuning using ANOVA and Tukey tests.",
+          "Google Colab notebook with test instances."
+        ]
+      }
     }
   ]
 }
