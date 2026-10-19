@@ -162,8 +162,9 @@
         "es": "Visor 3D de aristas con cámara móvil y proyección perspectiva calculada en C, desde la geometría hasta la pantalla.",
         "en": "A wireframe 3D viewer with a movable camera and perspective projection computed in C, from geometry to screen."
       },
-      "image": "Projects/3D_Projection/main.png",
+      "image": "Projects/3D_Projection/cover-ai.png",
       "gallery": [
+        "Projects/3D_Projection/main.png",
         "Projects/3D_Projection/geogebra.png"
       ],
       "links": {
